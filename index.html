@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grade Sheet in Javascript</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="myScript.js"></script>
+
+</head>
+
+<body style="background-color: rgb(235, 221, 221)">
+    <div class="container">
+        <h1>Grade Sheet by Emery</h1>
+        <div>
+            <label>Mathematics:</label>
+            <input type="number" id="mathScore">
+            <span id="mathGrade"></span>
+        </div>
+        <div>
+            <label>Science:</label>
+            <input type="number" id="scienceScore">
+            <span id="scienceGrade"></span>
+        </div>
+        <div>
+            <label>English:</label>
+            <input type="number" id="englishScore">
+            <span id="englishGrade"></span>
+        </div>
+        <div>
+            <label>History:</label>
+            <input type="number" id="historyScore">
+            <span id="historyGrade"></span>
+        </div>
+        <div>
+            <label>Art:</label>
+            <input type="number" id="artScore">
+            <span id="artGrade"></span>
+        </div>
+        <button onclick="getResult()">Get Result</button>
+        <div id="totalScore"></div>
+        <div id="averageScore"></div>
+        <div id="remarks"></div>
+    </div>
+
+</body>
+
+
+</html>
